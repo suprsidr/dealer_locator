@@ -1,3 +1,13 @@
+@import "settings";
+
+// @import "foundation";
+
+// Or selectively include components
+ @import
+   "foundation/components/tabs",
+   "foundation/components/visibility";
+
+
 .inline {
   display: inline-block;
 }

@@ -8,16 +8,15 @@ module.exports = function(grunt) {
           outputStyle: 'compressed'
         },
         files: {
-          'js/main.min.js': 'js/retailer.js',
-          'js/foundation.min.js': 'js/foundation.concat.js'
+          'js/retailer.min.js': 'js/retailer.js'
         }
       }
     },
 
     sass: {
-      options: {
-        includePaths: ['css/scss/foundation']
-      },
+	    options: {
+		    includePaths: ['css/scss/foundation']
+	    },
       dev: {
         files: {
           'css/retailer.css': 'css/scss/retailer.scss'
@@ -42,7 +41,7 @@ module.exports = function(grunt) {
       },
       
       sass: {
-        files: 'css/scss/*.scss',
+        files: 'css/scss/**/*.scss',
         tasks: ['sass']
       }
     }

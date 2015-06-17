@@ -1,6 +1,7 @@
 {
-  "name": "horizon-project-template",
+  "name": "dealer_locator",
   "version": "0.0.2",
+  "repository": "https://github.com/suprsidr/dealer_locator.git",
   "devDependencies": {
     "node-sass": "~0.7.0",
     "grunt": "~0.4.2",
